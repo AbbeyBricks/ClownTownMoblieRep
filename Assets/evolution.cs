@@ -15,7 +15,7 @@ public class evolution : MonoBehaviour
     public bool canGreen;
     public bool canBlue;
 
-    public int maxBlue
+    public int maxBlue;
     // Start is called before the first frame update
     void Start()
     {
@@ -44,7 +44,7 @@ public class evolution : MonoBehaviour
             canBlue = true;
         }
 
-        if ((red/total)) >= .75f && canRed)
+        if ((red/total)>= .75f && canRed)
 
             {
             anim.SetBool("evo1", true);
