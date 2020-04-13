@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -13,6 +14,7 @@ public class Evo : MonoBehaviour
     public float current;
     public Animator anim;
     public bool evo1complete;
+    public bool bonus;
 
     // Start is called before the first frame update
     void Start()
@@ -45,5 +47,27 @@ public class Evo : MonoBehaviour
             current += 1;
             //also substract one from "TO NEXT EVO"
         }
+
+        else if (bonus == true)
+        {
+            current += 2;
+        }
+    }
+
+    public void StartBonusTime()
+    {
+        StartCoroutine(BonusTime());
+    }
+
+    private void StartCoroutine(IEnumerable enumerable)
+    {
+        throw new NotImplementedException();
+    }
+
+    IEnumerable BonusTime()
+    {
+        bonus = true;
+        yield return new WaitForSeconds(5f);
+        bonus = false;
     }
 }
