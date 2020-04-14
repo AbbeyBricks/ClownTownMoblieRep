@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Menu : MonoBehaviour
+public class MenuManager: MonoBehaviour
 {
     public Animator simplenav;
     public Animator invetoryholder;
@@ -15,6 +15,8 @@ public class Menu : MonoBehaviour
     public bool usetigercup;
     public GameObject bluetigercup;
     public bool bonus;
+    public EnemySpawner es;
+    public bool MorePerformersActive; 
 
     public int goldCount;
     public Text goldText;
@@ -25,7 +27,7 @@ public class Menu : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        goldCount = PlayerPrefs.GetInt("Gold");
+        //goldCount = PlayerPrefs.GetInt("Gold");
 
     }
 
@@ -33,9 +35,9 @@ public class Menu : MonoBehaviour
     void Update()
     {
 
-        PlayerPrefs.SetInt("Gold", goldCount);
+        //PlayerPrefs.SetInt("Gold", goldCount);
 
-        goldText.text = "Gold:" + goldCount;
+        goldText.text = "money:" + goldCount;
         tigercup = PlayerPrefs.GetInt("tigercup");
 
         if (tigercup == 1)
@@ -46,8 +48,35 @@ public class Menu : MonoBehaviour
         if (usetigercup == true)
 
         {
-            bluetigercup.SetActive(false);
+            if(MorePerformersActive == false)
+            {
+              StartCoroutine("MorePerformers");
+                MorePerformersActive = true;
+            }
+            
+
         }
+
+        if (goldCount >= 100 && usetigercup == false)
+        {
+            Shoptigercup.interactable = true;
+        }
+        else
+        {
+            Shoptigercup.interactable = false;
+        }
+    }
+    IEnumerator MorePerformers()
+    {
+        es.minDelay = 0.1f;
+        es.maxDelay = 1f;
+        yield return new WaitForSeconds(10);
+
+        es.minDelay = 0.25f;
+        es.maxDelay = 5f;
+
+        usetigercup = false;
+        MorePerformersActive = false; 
     }
 
 
@@ -87,15 +116,14 @@ public class Menu : MonoBehaviour
 
     public void Buytigercup()
     {
-        goldCount -= 1;
-        PlayerPrefs.SetInt("tigercup", 1);
+        goldCount -= 100;
         Shoptigercup.interactable = false;
-        
+        usetigercup = true;
     }
 
     public void Usetigercup()
     {
-        usetigercup = true;
+        
     }
 
     public void Reset()

@@ -11,6 +11,7 @@ public class GotHit : MonoBehaviour
     public SpriteRenderer sr;
     public CircleCollider2D b2;
     public Transform start;
+    public bool popcorn;
 
     // Start is called before the first frame update
     void Start()
@@ -26,17 +27,31 @@ public class GotHit : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.tag == "Player" && hit == false)
+        if(popcorn == false)
         {
-            mo.enabled = false;
-            anim.SetBool("fall", true);
-            StartCoroutine(Vulnerable());
+         if(collision.tag == "Player" && hit == false)
+                {
+                    mo.enabled = false;
+                    anim.SetBool("fall", true);
+                    StartCoroutine(Vulnerable());
+                }
+
+                if(collision.tag == "Player" && hit == true)
+                {
+                    StartCoroutine(Finish());
+                }
         }
 
-        if(collision.tag == "Player" && hit == true)
+        else
         {
-            StartCoroutine(Finish());
+            if (collision.tag == "Player")
+            {
+                StartCoroutine(Finish());
+            }
         }
+
+
+       
     }
     IEnumerator Vulnerable()
     {
