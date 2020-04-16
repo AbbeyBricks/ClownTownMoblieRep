@@ -27,7 +27,7 @@ public class MenuManager: MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //goldCount = PlayerPrefs.GetInt("Gold");
+        goldCount = PlayerPrefs.GetInt("Gold");
 
     }
 
@@ -35,7 +35,7 @@ public class MenuManager: MonoBehaviour
     void Update()
     {
 
-        //PlayerPrefs.SetInt("Gold", goldCount);
+        PlayerPrefs.SetInt("Gold", goldCount);
 
         goldText.text = "money:" + goldCount;
         tigercup = PlayerPrefs.GetInt("tigercup");
