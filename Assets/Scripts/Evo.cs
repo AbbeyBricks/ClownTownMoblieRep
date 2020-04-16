@@ -16,6 +16,11 @@ public class Evo : MonoBehaviour
     public bool evo1complete;
     public bool bonus;
 
+    public int money;
+    public int clowns;
+    public GameObject gold;
+    public EnemySpawner goldSpawner;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +30,13 @@ public class Evo : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(clowns >= 10)
+        {
+            gold.SetActive(true);
+            StartCoroutine(ActivateGold());
+            clowns = 0;
+        }
+            
         evobar1.fillAmount = (current / evo1);
         evobar2.fillAmount = (current / evo2);
 
@@ -40,18 +52,32 @@ public class Evo : MonoBehaviour
         }
     }
 
+    IEnumerator ActivateGold()
+    {
+        goldSpawner.StartCoroutine("SpawnEnemies");
+        yield return new WaitForSeconds(5f);
+        gold.SetActive(false);
+            
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.tag == "absorb")
         {
-            current += 1;
-            //also substract one from "TO NEXT EVO"
+            if (bonus == false)
+            {
+                current += 1;
+                clowns += 1;
+            }
+            else if (bonus == true)
+            {
+                current += 2;
+                money += 2;
+            }
+       
         }
 
-        else if (bonus == true)
-        {
-            current += 2;
-        }
+
     }
 
     public void StartBonusTime()
@@ -59,12 +85,7 @@ public class Evo : MonoBehaviour
         StartCoroutine(BonusTime());
     }
 
-    private void StartCoroutine(IEnumerable enumerable)
-    {
-        throw new NotImplementedException();
-    }
-
-    IEnumerable BonusTime()
+    IEnumerator BonusTime()
     {
         bonus = true;
         yield return new WaitForSeconds(5f);
