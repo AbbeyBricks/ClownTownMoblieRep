@@ -4073,6 +4073,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1280861440501902056, guid: e89f32d4872229e48bb5628e47d140e0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 1280861440501902063, guid: e89f32d4872229e48bb5628e47d140e0,
         type: 3}
       propertyPath: m_LocalPosition.x

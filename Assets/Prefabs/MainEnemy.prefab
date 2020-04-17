@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 1280861440501902057}
   m_Layer: 0
   m_Name: MainEnemy
-  m_TagString: absorb
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -216,6 +216,7 @@ MonoBehaviour:
   sr: {fileID: 1280861441178108401}
   b2: {fileID: 1280861441178108400}
   start: {fileID: 1280861441251719931}
+  popcorn: 0
 --- !u!95 &1280861441178108407
 Animator:
   serializedVersion: 3
