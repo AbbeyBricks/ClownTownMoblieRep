@@ -13,6 +13,7 @@ public class MenuManager: MonoBehaviour
     public int tigercup;
     public GameObject inventorytigercup;
     public bool usetigercup;
+    public bool usepopcorn;
     public GameObject bluetigercup;
     public bool bonus;
     public EnemySpawner es;
@@ -27,7 +28,7 @@ public class MenuManager: MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        goldCount = PlayerPrefs.GetInt("Gold");
+        //goldCount = PlayerPrefs.GetInt("Gold");
 
     }
 
@@ -35,7 +36,7 @@ public class MenuManager: MonoBehaviour
     void Update()
     {
 
-        PlayerPrefs.SetInt("Gold", goldCount);
+        //PlayerPrefs.SetInt("Gold", goldCount);
 
         goldText.text = "money:" + goldCount;
         tigercup = PlayerPrefs.GetInt("tigercup");
@@ -64,6 +65,17 @@ public class MenuManager: MonoBehaviour
         else
         {
             Shoptigercup.interactable = false;
+        }
+
+
+
+        if (goldCount >= 500 && usepopcorn == false)
+        {
+            Shoppopcorn.interactable = true;
+        }
+        else
+        {
+            Shoppopcorn.interactable = false;
         }
     }
     IEnumerator MorePerformers()
