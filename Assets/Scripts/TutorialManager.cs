@@ -7,9 +7,14 @@ public class TutorialManager : MonoBehaviour
     public GameObject[] popUps;
     private int popUpIndex;
     public GameObject spawner;
+    public GameObject spawnItem;
     public float waitTime = 2f;
+
+ 
     private void Update()
+
     {
+        Touch touch = Input.GetTouch(0);
         for (int i = 0; i < popUps.Length; i++)
         {
             if (i == popUpIndex)
@@ -23,7 +28,7 @@ public class TutorialManager : MonoBehaviour
         }
         if (popUpIndex == 0)
         {
-            if (Input.touchSupported)
+            if (touch.phase == TouchPhase.Began) 
             {
                 popUpIndex++;
             }

@@ -64,11 +64,11 @@ public class GotHit : MonoBehaviour
 
     IEnumerator Finish()
     {
-        mo.enabled = true;
+        yield return new WaitForSeconds(.1f);
         anim.SetBool("fall", false);
         hit = false;
         transform.position = start.position;
-        yield return new WaitForSeconds(.01f);
+        mo.enabled = true;
         MF_AutoPool.Despawn(mover);
     }
  

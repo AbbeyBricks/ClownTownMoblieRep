@@ -40,7 +40,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1280861440501902063}
   - component: {fileID: 1280861440501902062}
-  - component: {fileID: 1280861440501902057}
   m_Layer: 0
   m_Name: MainEnemy
   m_TagString: Untagged
@@ -81,23 +80,6 @@ MonoBehaviour:
   startPoint: {fileID: 1280861441251719931}
   endPoint: {fileID: 1280861439972037145}
   moveSpeed: 2
---- !u!114 &1280861440501902057
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1280861440501902056}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec72faae4cc8a47edbb9b977002fff9a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enabledObject: {fileID: 0}
-  disabledObject: {fileID: 0}
-  version: []
-  deathTime: 5
-  despawnTime: 15
 --- !u!1 &1280861441178108403
 GameObject:
   m_ObjectHideFlags: 0

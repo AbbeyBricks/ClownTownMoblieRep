@@ -13,7 +13,7 @@ public class gold : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        mm = GameObject.FindObjectOfType<MenuManager>();
     }
 
     // Update is called once per frame
@@ -29,7 +29,8 @@ public class gold : MonoBehaviour
         {
             powerup = 10;
             MF_AutoPool.Despawn(this.gameObject);
-            ev.money += 1;
+            mm.goldCount += 1;
+            //ev.money += 1;
             
             
         }
