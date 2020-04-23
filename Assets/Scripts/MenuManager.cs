@@ -7,6 +7,7 @@ public class MenuManager: MonoBehaviour
 {
     public Animator simplenav;
     public Animator invetoryholder;
+    public Animator clownopedia;
     public bool MenuOpen;
 
     public Evo pc;
@@ -137,6 +138,37 @@ public class MenuManager: MonoBehaviour
         invetoryholder.SetBool("Open", false);
     }
 
+
+
+
+
+    public void OpenBook()
+    {
+        if (MenuOpen == false)
+        {
+            simplenav.SetBool("OpenBook", true);
+            Time.timeScale = 0;
+            MenuOpen = true;
+        }
+
+        else if (MenuOpen == true)
+        {
+            clownopedia.SetBool("OpenBook", false);
+            Time.timeScale = 1;
+            MenuOpen = false;
+        }
+    }
+
+    public void CloseBook()
+    {
+        clownopedia.SetBool("OpenBook", false);
+        Time.timeScale = 1;
+        MenuOpen = false;
+    }
+
+
+
+
     public void Buytigercup()
     {
         goldCount -= 100;
@@ -161,6 +193,9 @@ public class MenuManager: MonoBehaviour
         PlayerPrefs.SetInt("tigercup", 0);
         inventorytigercup.SetActive(false);
         usetigercup = false;
+
+        PlayerPrefs.SetInt("popcorn", 0);
+        usepopcorn = false;
     }
 
 }
