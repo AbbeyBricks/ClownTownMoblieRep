@@ -61,7 +61,7 @@ AnimatorController:
   m_Name: ShopMenu
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: OpenBook
+  - m_Name: Open
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -97,7 +97,7 @@ AnimatorStateMachine:
     m_Position: {x: 440, y: 30, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 6008801117680321438}
-    m_Position: {x: 360, y: -90, z: 0}
+    m_Position: {x: 330, y: -120, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -145,9 +145,6 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 1
     m_ConditionEvent: Open
-    m_EventTreshold: 0
-  - m_ConditionMode: 1
-    m_ConditionEvent: OpenBook
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 6008801117680321438}
