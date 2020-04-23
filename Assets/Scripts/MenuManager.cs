@@ -14,6 +14,7 @@ public class MenuManager: MonoBehaviour
     public GameObject inventorytigercup;
     public bool usetigercup;
     public bool usepopcorn;
+    public bool usenose;
     public GameObject bluetigercup;
     public bool bonus;
     public EnemySpawner es;
@@ -77,6 +78,16 @@ public class MenuManager: MonoBehaviour
         {
             Shoppopcorn.interactable = false;
         }
+
+
+        if (goldCount >= 800 && usenose == false)
+        {
+            Shopnose.interactable = true;
+        }
+        else
+        {
+            Shopnose.interactable = false;
+        }
     }
     IEnumerator MorePerformers()
     {
@@ -131,6 +142,13 @@ public class MenuManager: MonoBehaviour
         goldCount -= 100;
         Shoptigercup.interactable = false;
         usetigercup = true;
+    }
+
+    public void Buypopcorn()
+    {
+        goldCount -= 500;
+        Shoppopcorn.interactable = false;
+        usepopcorn = true;
     }
 
     public void Usetigercup()
