@@ -9,6 +9,7 @@ public class MenuManager: MonoBehaviour
     public Animator invetoryholder;
     public Animator clownopedia;
     public bool MenuOpen;
+    public bool BookOpen;
 
     public Evo pc;
     public int tigercup;
@@ -144,18 +145,18 @@ public class MenuManager: MonoBehaviour
 
     public void OpenBook()
     {
-        if (MenuOpen == false)
+        if (BookOpen == false)
         {
-            simplenav.SetBool("OpenBook", true);
+            clownopedia.SetBool("OpenBook", true);
             Time.timeScale = 0;
-            MenuOpen = true;
+            BookOpen = true;
         }
 
-        else if (MenuOpen == true)
+        else if (BookOpen == true)
         {
             clownopedia.SetBool("OpenBook", false);
             Time.timeScale = 1;
-            MenuOpen = false;
+            BookOpen = false;
         }
     }
 
@@ -163,7 +164,7 @@ public class MenuManager: MonoBehaviour
     {
         clownopedia.SetBool("OpenBook", false);
         Time.timeScale = 1;
-        MenuOpen = false;
+        BookOpen = false;
     }
 
 
