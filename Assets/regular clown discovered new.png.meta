@@ -1,0 +1,607 @@
+fileFormatVersion: 2
+guid: dfe74f38812554fa68e55672ecb34039
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7242066483671810518
+    second: regular clown discovered new_0
+  - first:
+      213: -4301944971173454999
+    second: regular clown discovered new_1
+  - first:
+      213: 6492041386183140022
+    second: regular clown discovered new_2
+  - first:
+      213: -4057267304639361555
+    second: regular clown discovered new_3
+  - first:
+      213: -4200289066693614092
+    second: regular clown discovered new_4
+  - first:
+      213: -7168202976585213748
+    second: regular clown discovered new_5
+  - first:
+      213: 2855993960981130064
+    second: regular clown discovered new_6
+  - first:
+      213: 9014936223525904586
+    second: regular clown discovered new_7
+  - first:
+      213: 4381548148109130718
+    second: regular clown discovered new_8
+  - first:
+      213: 1974914536669854125
+    second: regular clown discovered new_9
+  - first:
+      213: 5953134352615635078
+    second: regular clown discovered new_10
+  - first:
+      213: 5155580414709802040
+    second: regular clown discovered new_11
+  - first:
+      213: -7660005024766417919
+    second: regular clown discovered new_12
+  - first:
+      213: -2512377519907511869
+    second: regular clown discovered new_13
+  - first:
+      213: -3160624094660179241
+    second: regular clown discovered new_14
+  - first:
+      213: -8741680834066948559
+    second: regular clown discovered new_15
+  - first:
+      213: 451612260279976414
+    second: regular clown discovered new_16
+  - first:
+      213: -1741150466721096863
+    second: regular clown discovered new_17
+  - first:
+      213: -2178145142113656723
+    second: regular clown discovered new_18
+  - first:
+      213: -4291300861334646366
+    second: regular clown discovered new_19
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 350
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: regular clown discovered new_0
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 1920
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d6768d652a87474f87bb68bdd50dbcc
+      internalID: -7242066483671810518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regular clown discovered new_1
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 1829
+        width: 249
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7508125bbce624cc7aadacc0444a547a
+      internalID: -4301944971173454999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regular clown discovered new_2
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 1708
+        width: 492
+        height: 492
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94756b2d219eb49b4b16735bab6accbb
+      internalID: 6492041386183140022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regular clown discovered new_3
+      rect:
+        serializedVersion: 2
+        x: 2358
+        y: 1604
+        width: 697
+        height: 698
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce194e4f20be4b0db530a388cbe9a3c
+      internalID: -4057267304639361555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regular clown discovered new_4
+      rect:
+        serializedVersion: 2
+        x: 3123
+        y: 1648
+        width: 612
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7891f52caf814ce99e09d524490e944
+      internalID: -4200289066693614092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regular clown discovered new_5
+      rect:
+        serializedVersion: 2
+        x: 3804
+        y: 1648
+        width: 610
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac7630c0e25e4260b7fa36901698b3a
+      internalID: -7168202976585213748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regular clown discovered new_6
+      rect:
+        serializedVersion: 2
+        x: 4482
+        y: 1648
+        width: 613
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a629d82fd72e847b3b5e3e968bc51c97
+      internalID: 2855993960981130064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regular clown discovered new_7
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 907
+        width: 613
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a544916a58574b3eb26f30c5976e675
+      internalID: 9014936223525904586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regular clown discovered new_8
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 907
+        width: 611
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86c727b51989d4bd48ccbc99e7f355bb
+      internalID: 4381548148109130718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regular clown discovered new_9
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 907
+        width: 610
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb69aa06d16f44262a92cc8e215dd655
+      internalID: 1974914536669854125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regular clown discovered new_10
+      rect:
+        serializedVersion: 2
+        x: 2345
+        y: 907
+        width: 613
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75307d61ee8824de69cf69fab4b7c4fa
+      internalID: 5953134352615635078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regular clown discovered new_11
+      rect:
+        serializedVersion: 2
+        x: 3026
+        y: 907
+        width: 612
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf14e57301704c55b9a3bf5d7e42ff5
+      internalID: 5155580414709802040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regular clown discovered new_12
+      rect:
+        serializedVersion: 2
+        x: 3707
+        y: 907
+        width: 610
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c06f2fb89a29e46709e09920319df636
+      internalID: -7660005024766417919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regular clown discovered new_13
+      rect:
+        serializedVersion: 2
+        x: 4385
+        y: 907
+        width: 613
+        height: 610
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb6fc5c78b474e3d94565e0f1ba0765
+      internalID: -2512377519907511869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regular clown discovered new_14
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 130
+        width: 613
+        height: 665
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d5a1deb0a7cc427eaf26a2943b92153
+      internalID: -3160624094660179241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regular clown discovered new_15
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 80
+        width: 611
+        height: 715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dd48607ff9b34d749dda262d159b368
+      internalID: -8741680834066948559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regular clown discovered new_16
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 119
+        width: 610
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 087879accc58c482fba643a184cc09b9
+      internalID: 451612260279976414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regular clown discovered new_17
+      rect:
+        serializedVersion: 2
+        x: 2345
+        y: 88
+        width: 613
+        height: 707
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b5f74a5d4ccb42c799398c5cb208f3e
+      internalID: -1741150466721096863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regular clown discovered new_18
+      rect:
+        serializedVersion: 2
+        x: 3026
+        y: 111
+        width: 612
+        height: 684
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f720f6ea2150f4449b081a601ad23f46
+      internalID: -2178145142113656723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: regular clown discovered new_19
+      rect:
+        serializedVersion: 2
+        x: 3707
+        y: 98
+        width: 610
+        height: 697
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9da851a5b1bb42fd867ba6f85eebdb9
+      internalID: -4291300861334646366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
