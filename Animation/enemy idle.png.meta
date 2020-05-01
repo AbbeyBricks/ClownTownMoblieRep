@@ -1,25 +1,16 @@
 fileFormatVersion: 2
-guid: 361ba48741b28fe4c9dfa3fa1ddfdbd0
+guid: 988f1360339ac4f5e860f8f0e7cd9143
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1408758523563823101
-    second: clown eet_0
+      213: -6973272221645584605
+    second: enemy idle_0
   - first:
-      213: 6801427080992060667
-    second: clown eet_1
+      213: 6690785250364214578
+    second: enemy idle_1
   - first:
-      213: -1020969300998297072
-    second: clown eet_2
-  - first:
-      213: -2670534361408336420
-    second: clown eet_3
-  - first:
-      213: -5911611368096017174
-    second: clown eet_4
-  - first:
-      213: -7434295248790996547
-    second: clown eet_5
+      213: -2843515665666871291
+    second: enemy idle_2
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -101,6 +92,18 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -116,13 +119,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: clown eet_0
+      name: enemy idle_0
       rect:
         serializedVersion: 2
-        x: 92
-        y: 59
-        width: 298
-        height: 392
+        x: 54
+        y: 19
+        width: 168
+        height: 219
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,20 +133,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90a56e444e8db054fa7c9fd062d58c52
-      internalID: 1408758523563823101
+      spriteID: 1ca42a72343e94945a1d822da52beed7
+      internalID: -6973272221645584605
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clown eet_1
+      name: enemy idle_1
       rect:
         serializedVersion: 2
-        x: 438
-        y: 59
-        width: 318
-        height: 389
+        x: 300
+        y: 19
+        width: 177
+        height: 201
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,20 +154,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06d0152a38f67ef41ba38a850c8db445
-      internalID: 6801427080992060667
+      spriteID: 0f5714a4f435d441390b7258bb9b6a64
+      internalID: 6690785250364214578
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clown eet_2
+      name: enemy idle_2
       rect:
         serializedVersion: 2
-        x: 839
-        y: 58
-        width: 323
-        height: 391
+        x: 557
+        y: 19
+        width: 163
+        height: 227
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,71 +175,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b41bad2d6f516d944a1af64e11265454
-      internalID: -1020969300998297072
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clown eet_3
-      rect:
-        serializedVersion: 2
-        x: 1224
-        y: 59
-        width: 321
-        height: 394
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6ebec12370e5e624f889a4e876770988
-      internalID: -2670534361408336420
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clown eet_4
-      rect:
-        serializedVersion: 2
-        x: 1608
-        y: 49
-        width: 345
-        height: 373
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ae539c7dbd886da46865dee215f75f45
-      internalID: -5911611368096017174
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clown eet_5
-      rect:
-        serializedVersion: 2
-        x: 1996
-        y: 41
-        width: 345
-        height: 396
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 68329b89fee0cef488c4e2327cd7a99a
-      internalID: -7434295248790996547
+      spriteID: 02672c6f6e2404493a7853d6d5812c4d
+      internalID: -2843515665666871291
       vertices: []
       indices: 
       edges: []
