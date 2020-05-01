@@ -7,11 +7,13 @@ public class GotHit : MonoBehaviour
     public GameObject mover;
     public MovingObject mo;
     public Animator anim;
+    public Evo ev;
     public bool hit;
     public SpriteRenderer sr;
     public CircleCollider2D b2;
     public Transform start;
     public bool popcorn;
+    public AudioSource hitsound;
 
     // Start is called before the first frame update
     void Start()
@@ -22,7 +24,7 @@ public class GotHit : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        ev = GameObject.FindObjectOfType<Evo>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -33,12 +35,15 @@ public class GotHit : MonoBehaviour
                 {
                     mo.enabled = false;
                     anim.SetBool("fall", true);
+                ev.StartCoroutine("Player_kick");
+                hitsound.Play();
                     StartCoroutine(Vulnerable());
                 }
 
                 if(collision.tag == "Player" && hit == true)
                 {
                     StartCoroutine(Finish());
+                ev.StartCoroutine("Absorb");
                 }
         }
 

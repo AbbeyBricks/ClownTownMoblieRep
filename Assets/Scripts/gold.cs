@@ -10,6 +10,8 @@ public class gold : MonoBehaviour
     public float powerup;
     public float fallspeed;
     public MenuManager mm;
+    public AudioSource goldsound;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -30,6 +32,7 @@ public class gold : MonoBehaviour
             powerup = 10;
             MF_AutoPool.Despawn(this.gameObject);
             mm.goldCount += 1;
+            goldsound.Play();
             //ev.money += 1;
             
             

@@ -68,11 +68,13 @@ public class Evo : MonoBehaviour
             {
                 current += 1;
                 clowns += 1;
+                StartCoroutine("Player_kick");
             }
             else if (bonus == true)
             {
                 current += 2;
                 money += 2;
+                StartCoroutine("absorb");
             }
        
         }
@@ -90,5 +92,18 @@ public class Evo : MonoBehaviour
         bonus = true;
         yield return new WaitForSeconds(5f);
         bonus = false;
+    }
+
+    IEnumerator Kick()
+    {
+        anim.SetBool("Player_kick", true);
+        yield return new WaitForSeconds(.5F);
+        anim.SetBool("Player_kick", false);
+    }
+
+    IEnumerator Absorb()
+    { anim.SetBool("Absorb", true);
+        yield return new WaitForSeconds(.5f);
+        anim.SetBool("Absorb", false);
     }
 }
