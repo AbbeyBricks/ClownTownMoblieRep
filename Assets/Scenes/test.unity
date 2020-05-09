@@ -5165,16 +5165,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   evobar1: {fileID: 1486056177}
   evobar2: {fileID: 948811219}
+  evobar3: {fileID: 0}
+  fillamount: {fileID: 0}
   evo1: 10
   evo2: 20
   current: 0
   anim: {fileID: 1462002539}
   evo1complete: 0
+  evo2complete: 0
   bonus: 0
+  newclownfound: {fileID: 0}
   money: 0
   clowns: 0
   gold: {fileID: 1842637185}
   goldSpawner: {fileID: 1842637186}
+  NewClownFound: {fileID: 0}
 --- !u!61 &1462002541
 BoxCollider2D:
   m_ObjectHideFlags: 0

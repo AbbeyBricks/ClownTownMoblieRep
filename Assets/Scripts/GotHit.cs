@@ -35,7 +35,7 @@ public class GotHit : MonoBehaviour
                 {
                     mo.enabled = false;
                     anim.SetBool("fall", true);
-                ev.StartCoroutine("Player_kick");
+                ev.StartCoroutine("kick");
                 hitsound.Play();
                     StartCoroutine(Vulnerable());
                 }

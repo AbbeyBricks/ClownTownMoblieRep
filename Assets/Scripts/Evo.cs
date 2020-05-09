@@ -10,6 +10,7 @@ public class Evo : MonoBehaviour
     public Image evobar1;
     public Image evobar2;
     public Image evobar3;
+    public Image fillamount;
     public float evo1;
     public float evo2;
     public float current;
@@ -17,6 +18,7 @@ public class Evo : MonoBehaviour
     public bool evo1complete;
     public bool evo2complete;
     public bool bonus;
+     public GameObject newclownfound;
 
     public int money;
     public int clowns;
@@ -57,7 +59,7 @@ public class Evo : MonoBehaviour
 
         }
 
-        if (evobar2.fillamount == 1 && evo2complete == false)
+        if (evobar2.fillAmount == 1 && evo2complete == false)
         {
             current = 0;
             evobar2.enabled = false;
@@ -70,15 +72,16 @@ public class Evo : MonoBehaviour
         if (evobar3.fillAmount == 1)
         {
             Time.timeScale = 0;
-            GameOverScreen.SetActive(true);
+            //GameOverScreen.SetActive(true);
         }
 
         IEnumerator NewClown()
         {
             newclownfound.SetActive(true);
             yield return new WaitForSeconds(2f);
-            newclownfound.setactive(false);
+            newclownfound.SetActive(false);
         }
+
         IEnumerator ActivateGold()
         {
             goldSpawner.StartCoroutine("SpawnEnemies");
@@ -87,7 +90,7 @@ public class Evo : MonoBehaviour
 
         }
 
-        void OnTriggerEnter2D(Collider2D collision)
+       void OnTriggerEnter2D(Collider2D collision)
         {
             if (collision.tag == "absorb")
             {
