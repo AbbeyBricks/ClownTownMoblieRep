@@ -24,6 +24,7 @@ public class Evo : MonoBehaviour
     public EnemySpawner goldSpawner;
 
     public GameObject NewClownFound;
+   
 
     // Start is called before the first frame update
     void Start()
@@ -61,14 +62,14 @@ public class Evo : MonoBehaviour
             current = 0;
             evobar2.enabled = false;
             evobar3.enabled = true;
-            Anim.SetBool("evo2", true);
+            anim.SetBool("evo2", true);
             evo2complete = true;
             //StartCoroutine("NewClown2");
         }
 
         if (evobar3.fillAmount == 1)
         {
-            Time.timescale = 0;
+            Time.timeScale = 0;
             GameOverScreen.SetActive(true);
         }
 

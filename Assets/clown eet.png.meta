@@ -130,7 +130,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90a56e444e8db054fa7c9fd062d58c52
+      spriteID: ea93dc1ec3afa454cafa21b683691b46
       internalID: 1408758523563823101
       vertices: []
       indices: 
@@ -151,7 +151,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06d0152a38f67ef41ba38a850c8db445
+      spriteID: 0e70d964d45fd234ea4548295c3b6661
       internalID: 6801427080992060667
       vertices: []
       indices: 
@@ -161,7 +161,7 @@ TextureImporter:
       name: clown eet_2
       rect:
         serializedVersion: 2
-        x: 839
+        x: 836
         y: 58
         width: 323
         height: 391
@@ -172,7 +172,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b41bad2d6f516d944a1af64e11265454
+      spriteID: 85f49de3d5424794ab1995f4943b4f11
       internalID: -1020969300998297072
       vertices: []
       indices: 
@@ -193,7 +193,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ebec12370e5e624f889a4e876770988
+      spriteID: 75b0f45325c01384f94558eed81a2311
       internalID: -2670534361408336420
       vertices: []
       indices: 
@@ -214,7 +214,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae539c7dbd886da46865dee215f75f45
+      spriteID: c8fcfeb7b542f9946810786811513727
       internalID: -5911611368096017174
       vertices: []
       indices: 
@@ -235,7 +235,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 68329b89fee0cef488c4e2327cd7a99a
+      spriteID: 6a7fb63c26525764a9a65cbdd85e17c9
       internalID: -7434295248790996547
       vertices: []
       indices: 
