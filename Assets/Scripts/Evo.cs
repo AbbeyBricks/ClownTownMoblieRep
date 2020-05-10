@@ -10,7 +10,7 @@ public class Evo : MonoBehaviour
     public Image evobar1;
     public Image evobar2;
     public Image evobar3;
-    public Image fillamount;
+    //public bool fillamount;
     public float evo1;
     public float evo2;
     public float current;
@@ -92,19 +92,19 @@ public class Evo : MonoBehaviour
 
        void OnTriggerEnter2D(Collider2D collision)
         {
-            if (collision.tag == "absorb")
+            if (collision.tag == "Absorb")
             {
                 if (bonus == false)
                 {
                     current += 1;
                     clowns += 1;
-                    StartCoroutine("kick");
+                    StartCoroutine("Kick");
                 }
                 else if (bonus == true)
                 {
                     current += 2;
                     money += 2;
-                    StartCoroutine("absorb");
+                    StartCoroutine("Absorb");
                 }
 
             }

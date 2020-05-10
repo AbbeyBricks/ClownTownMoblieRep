@@ -6,6 +6,7 @@ TagManager:
   tags:
   - absorb
   - Catcher
+  - Absorb
   layers:
   - Default
   - TransparentFX
