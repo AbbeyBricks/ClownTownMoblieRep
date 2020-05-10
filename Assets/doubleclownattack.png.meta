@@ -1,7 +1,40 @@
 fileFormatVersion: 2
 guid: e39385e2d9a038f4a8a118e8f5267aef
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 7239284955691556611
+    second: doubleclownattack_0
+  - first:
+      213: -1759106198875348030
+    second: doubleclownattack_1
+  - first:
+      213: -1731000239745349443
+    second: doubleclownattack_2
+  - first:
+      213: -6156171734527485446
+    second: doubleclownattack_3
+  - first:
+      213: 1793738554058632905
+    second: doubleclownattack_4
+  - first:
+      213: -5071184166263553002
+    second: doubleclownattack_5
+  - first:
+      213: -7930496538002100577
+    second: doubleclownattack_6
+  - first:
+      213: 4495317719592745352
+    second: doubleclownattack_7
+  - first:
+      213: -8213894885201161701
+    second: doubleclownattack_8
+  - first:
+      213: -2945780747428263256
+    second: doubleclownattack_9
+  - first:
+      213: -5268366029784835879
+    second: doubleclownattack_10
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +73,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +141,238 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: doubleclownattack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1143
+        width: 717
+        height: 905
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f7c813562a9efe4a92cf93641f4a88d
+      internalID: 7239284955691556611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleclownattack_1
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 1143
+        width: 720
+        height: 905
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44ddde3462b9ad94dbdf95ba8212ff7e
+      internalID: -1759106198875348030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleclownattack_2
+      rect:
+        serializedVersion: 2
+        x: 1647
+        y: 1455
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 011794b35e2907f4984803dfeff75b69
+      internalID: -1731000239745349443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleclownattack_3
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 1128
+        width: 690
+        height: 920
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba498db89e5f90b44929096a767c39d9
+      internalID: -6156171734527485446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleclownattack_4
+      rect:
+        serializedVersion: 2
+        x: 2503
+        y: 1153
+        width: 690
+        height: 846
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3d4323ca990054d804f8c7fee808df
+      internalID: 1793738554058632905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleclownattack_5
+      rect:
+        serializedVersion: 2
+        x: 3323
+        y: 1111
+        width: 773
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c64794a9c13d12346864600431e1cada
+      internalID: -5071184166263553002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleclownattack_6
+      rect:
+        serializedVersion: 2
+        x: 3279
+        y: 1109
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396f86899e842f74da6a106c9f6a0e3b
+      internalID: -7930496538002100577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleclownattack_7
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 0
+        width: 594
+        height: 1019
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2baf5bd973f02a44acefbb4ea781a67
+      internalID: 4495317719592745352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleclownattack_8
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 0
+        width: 592
+        height: 1051
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b06f486263a9e340a0ca4027e72d9ff
+      internalID: -8213894885201161701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleclownattack_9
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 741
+        height: 719
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 366350e44ae278a449fc9db2c8c86eea
+      internalID: -2945780747428263256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleclownattack_10
+      rect:
+        serializedVersion: 2
+        x: 2515
+        y: 67
+        width: 738
+        height: 678
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af16d414e2222f143ab7f23144325ddd
+      internalID: -5268366029784835879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

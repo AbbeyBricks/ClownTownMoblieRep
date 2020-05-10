@@ -1,7 +1,19 @@
 fileFormatVersion: 2
 guid: 7c4b88a786250f34580728f47b44cca6
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -6554889764812173220
+    second: doubleabsorb_0
+  - first:
+      213: 2377365495312558628
+    second: doubleabsorb_1
+  - first:
+      213: -5923273012484834558
+    second: doubleabsorb_2
+  - first:
+      213: 3997917978832887310
+    second: doubleabsorb_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -108,7 +120,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: doubleabsorb_0
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 217
+        width: 497
+        height: 973
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed709ec93f5e3f4b82549959002f2a8
+      internalID: -6554889764812173220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleabsorb_1
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 184
+        width: 516
+        height: 974
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e8382737a28a3646abc9d3aea04ae9c
+      internalID: 2377365495312558628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleabsorb_2
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 164
+        width: 511
+        height: 970
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da73bdff387eb14e87e55237d42cce7
+      internalID: -5923273012484834558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doubleabsorb_3
+      rect:
+        serializedVersion: 2
+        x: 2175
+        y: 147
+        width: 517
+        height: 995
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c8d929153628ad4b80996c39525b871
+      internalID: 3997917978832887310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
