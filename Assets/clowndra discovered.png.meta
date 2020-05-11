@@ -1,67 +1,67 @@
 fileFormatVersion: 2
-guid: de524f5f206654365a6c0b3e50486bae
+guid: a5587fdc6e44449bf9f389650bd1b7e7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3525119352219136570
-    second: clownmedy discovered_0
+      213: -3037675347365506842
+    second: clowndra discovered_0
   - first:
-      213: -3195305844215905651
-    second: clownmedy discovered_1
+      213: 2825050420456113028
+    second: clowndra discovered_1
   - first:
-      213: -7454777345048794272
-    second: clownmedy discovered_2
+      213: -4841228337841338247
+    second: clowndra discovered_2
   - first:
-      213: -8485535102810465968
-    second: clownmedy discovered_3
+      213: -5240165432810916233
+    second: clowndra discovered_3
   - first:
-      213: -3252333324398950071
-    second: clownmedy discovered_4
+      213: -923443577572652055
+    second: clowndra discovered_4
   - first:
-      213: 1352286593849384043
-    second: clownmedy discovered_5
+      213: 4857904991031489011
+    second: clowndra discovered_5
   - first:
-      213: 9038559894055502538
-    second: clownmedy discovered_6
+      213: -2080897057096981166
+    second: clowndra discovered_6
   - first:
-      213: -8858501607507162968
-    second: clownmedy discovered_7
+      213: -6623649215981498530
+    second: clowndra discovered_7
   - first:
-      213: 1319701696435599589
-    second: clownmedy discovered_8
+      213: 6572401508977831201
+    second: clowndra discovered_8
   - first:
-      213: -8014384330785584308
-    second: clownmedy discovered_9
+      213: -3850415840351675489
+    second: clowndra discovered_9
   - first:
-      213: -4713470160238963933
-    second: clownmedy discovered_10
+      213: 4825334420084097953
+    second: clowndra discovered_10
   - first:
-      213: 4900920920929016779
-    second: clownmedy discovered_11
+      213: 14020971649622561
+    second: clowndra discovered_11
   - first:
-      213: 7174383358316678879
-    second: clownmedy discovered_12
+      213: 4218527313743952948
+    second: clowndra discovered_12
   - first:
-      213: -7498734339289561412
-    second: clownmedy discovered_13
+      213: 3683509969632508828
+    second: clowndra discovered_13
   - first:
-      213: 8409654333035217013
-    second: clownmedy discovered_14
+      213: -6389712519263783934
+    second: clowndra discovered_14
   - first:
-      213: -3227545810902718149
-    second: clownmedy discovered_15
+      213: -1293657893511761627
+    second: clowndra discovered_15
   - first:
-      213: -822095561147937273
-    second: clownmedy discovered_16
+      213: 2292347501495963834
+    second: clowndra discovered_16
   - first:
-      213: -8052182480071631722
-    second: clownmedy discovered_17
+      213: 1090507989965122986
+    second: clowndra discovered_17
   - first:
-      213: -6487853041192467788
-    second: clownmedy discovered_18
+      213: 7624376935602398979
+    second: clowndra discovered_18
   - first:
-      213: 1590986284931869181
-    second: clownmedy discovered_19
+      213: 9049063684887119774
+    second: clowndra discovered_19
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -170,7 +170,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: clownmedy discovered_0
+      name: clowndra discovered_0
       rect:
         serializedVersion: 2
         x: 507
@@ -184,14 +184,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8bc328c3aa02417eaefcb74ccd357fc
-      internalID: -3525119352219136570
+      spriteID: ee0af192477b04b3a9d2c05465984d81
+      internalID: -3037675347365506842
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clownmedy discovered_1
+      name: clowndra discovered_1
       rect:
         serializedVersion: 2
         x: 1138
@@ -205,14 +205,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 20e4f70a1131846f897a2f1fab3deb09
-      internalID: -3195305844215905651
+      spriteID: d5c1e11534e38409f93cfc28a35041a4
+      internalID: 2825050420456113028
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clownmedy discovered_2
+      name: clowndra discovered_2
       rect:
         serializedVersion: 2
         x: 1738
@@ -226,14 +226,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 545b6cc59c22f431bb49f30f29aea0c5
-      internalID: -7454777345048794272
+      spriteID: bdbcfe5aad0e24434bd87a44a22abd6c
+      internalID: -4841228337841338247
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clownmedy discovered_3
+      name: clowndra discovered_3
       rect:
         serializedVersion: 2
         x: 2358
@@ -247,14 +247,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2dad58b8b09d4faabf8dabcbdf3bc4d
-      internalID: -8485535102810465968
+      spriteID: 993280b02c49f4744bae40f6d3b2ae9a
+      internalID: -5240165432810916233
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clownmedy discovered_4
+      name: clowndra discovered_4
       rect:
         serializedVersion: 2
         x: 3123
@@ -268,14 +268,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3c993ea2d0ed4797ac263789a34a7b7
-      internalID: -3252333324398950071
+      spriteID: 12c1cef60ac2341e5ad80dc926018250
+      internalID: -923443577572652055
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clownmedy discovered_5
+      name: clowndra discovered_5
       rect:
         serializedVersion: 2
         x: 3804
@@ -289,14 +289,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 00ab8c2407e05477ba15ed97568e9b3f
-      internalID: 1352286593849384043
+      spriteID: ff90750fcb2524ee191fe9a5d712e5e2
+      internalID: 4857904991031489011
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clownmedy discovered_6
+      name: clowndra discovered_6
       rect:
         serializedVersion: 2
         x: 4482
@@ -310,14 +310,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31cc75dc8f4b141d5850bc73fc605990
-      internalID: 9038559894055502538
+      spriteID: d47af8e50484c4c83924e3cbb6581487
+      internalID: -2080897057096981166
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clownmedy discovered_7
+      name: clowndra discovered_7
       rect:
         serializedVersion: 2
         x: 305
@@ -331,14 +331,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1310dde3901ff4ffb9e50e9509478fef
-      internalID: -8858501607507162968
+      spriteID: 40357043599cc4221887300a73154743
+      internalID: -6623649215981498530
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clownmedy discovered_8
+      name: clowndra discovered_8
       rect:
         serializedVersion: 2
         x: 986
@@ -352,14 +352,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 880f9c9fa12df4244abcc3c186753c54
-      internalID: 1319701696435599589
+      spriteID: 59f5d1f93c6c94ea683d26febd9d9a2f
+      internalID: 6572401508977831201
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clownmedy discovered_9
+      name: clowndra discovered_9
       rect:
         serializedVersion: 2
         x: 1667
@@ -373,14 +373,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f99a1137ecd3f4c3a93f5f5cd1326ee9
-      internalID: -8014384330785584308
+      spriteID: 21fc5d0420a904166abaf19c4455e348
+      internalID: -3850415840351675489
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clownmedy discovered_10
+      name: clowndra discovered_10
       rect:
         serializedVersion: 2
         x: 2345
@@ -394,14 +394,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38ea324d0257c4578b2eae2382de190c
-      internalID: -4713470160238963933
+      spriteID: 0d6e89223b8b946c6b9aeea50482a4a5
+      internalID: 4825334420084097953
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clownmedy discovered_11
+      name: clowndra discovered_11
       rect:
         serializedVersion: 2
         x: 3026
@@ -415,14 +415,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c0c507d246b1c49a7ac0515c18013614
-      internalID: 4900920920929016779
+      spriteID: 69a8308126583442e9ee53d53ec087f8
+      internalID: 14020971649622561
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clownmedy discovered_12
+      name: clowndra discovered_12
       rect:
         serializedVersion: 2
         x: 3707
@@ -436,14 +436,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6515345b18414a0a836939f5497bd17
-      internalID: 7174383358316678879
+      spriteID: d200604cf82aa49d1bc70d4e51ac2058
+      internalID: 4218527313743952948
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clownmedy discovered_13
+      name: clowndra discovered_13
       rect:
         serializedVersion: 2
         x: 4385
@@ -457,14 +457,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ddc9a4295681b48bf9c5bf0a3d257d09
-      internalID: -7498734339289561412
+      spriteID: 4e7bbf0379c0445018ea5da0f6e5b156
+      internalID: 3683509969632508828
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clownmedy discovered_14
+      name: clowndra discovered_14
       rect:
         serializedVersion: 2
         x: 305
@@ -478,14 +478,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2f57ff4f40bd4dd395c4acd91f45990
-      internalID: 8409654333035217013
+      spriteID: 9cf1c01448e7246be8992f115ab7f11f
+      internalID: -6389712519263783934
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clownmedy discovered_15
+      name: clowndra discovered_15
       rect:
         serializedVersion: 2
         x: 986
@@ -499,14 +499,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6df0666414944a1db25d3cf9f959782
-      internalID: -3227545810902718149
+      spriteID: c863a438945d1458cbaed2978feaa124
+      internalID: -1293657893511761627
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clownmedy discovered_16
+      name: clowndra discovered_16
       rect:
         serializedVersion: 2
         x: 1667
@@ -520,14 +520,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33a12ea1f1fce42869f17207bad531c9
-      internalID: -822095561147937273
+      spriteID: 29395cb243c58460a9766f3964fa218e
+      internalID: 2292347501495963834
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clownmedy discovered_17
+      name: clowndra discovered_17
       rect:
         serializedVersion: 2
         x: 2345
@@ -541,14 +541,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cbf53b7d261d9484dba242419de1219c
-      internalID: -8052182480071631722
+      spriteID: 3d5b6394398674ba0ad30dc6d2928552
+      internalID: 1090507989965122986
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clownmedy discovered_18
+      name: clowndra discovered_18
       rect:
         serializedVersion: 2
         x: 3026
@@ -562,14 +562,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d27287e2b8fd441a2a30b85b722c53f6
-      internalID: -6487853041192467788
+      spriteID: 94f0e723be93740918363a0a4bafc612
+      internalID: 7624376935602398979
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: clownmedy discovered_19
+      name: clowndra discovered_19
       rect:
         serializedVersion: 2
         x: 3707
@@ -583,8 +583,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7566c59b025f479da32696014e4f95a
-      internalID: 1590986284931869181
+      spriteID: ad1913fe4595e4384b36452e5fa43d47
+      internalID: 9049063684887119774
       vertices: []
       indices: 
       edges: []
