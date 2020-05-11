@@ -18,7 +18,7 @@ public class Evo : MonoBehaviour
     public bool evo1complete;
     public bool evo2complete;
     public bool bonus;
-     public GameObject newclownfound;
+    public GameObject newclownfound;
 
     public int money;
     public int clowns;
@@ -26,7 +26,7 @@ public class Evo : MonoBehaviour
     public EnemySpawner goldSpawner;
 
     public GameObject NewClownFound;
-   
+
 
     // Start is called before the first frame update
     void Start()
@@ -75,12 +75,14 @@ public class Evo : MonoBehaviour
             //GameOverScreen.SetActive(true);
         }
 
-        IEnumerator NewClown()
-        {
-            newclownfound.SetActive(true);
-            yield return new WaitForSeconds(2f);
-            newclownfound.SetActive(false);
-        }
+        
+        //IEnumerator NewClown()
+        //{
+           // newclownfound.SetActive(true);
+           // yield return new WaitForSeconds(2f);
+          //  newclownfound.SetActive(false);
+       // }
+    
 
         IEnumerator ActivateGold()
         {
@@ -89,29 +91,27 @@ public class Evo : MonoBehaviour
             gold.SetActive(false);
 
         }
-
-       void OnTriggerEnter2D(Collider2D collision)
+    
+    }
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Absorb")
         {
-            if (collision.tag == "Absorb")
+            if (bonus == false)
             {
-                if (bonus == false)
-                {
-                    current += 1;
-                    clowns += 1;
-                    StartCoroutine("Kick");
-                }
-                else if (bonus == true)
-                {
-                    current += 2;
-                    money += 2;
-                    StartCoroutine("Absorb");
-                }
-
+                current += 1;
+                clowns += 1;
+                StartCoroutine("Kick");
+            }
+            else if (bonus == true)
+            {
+                current += 2;
+                money += 2;
+                StartCoroutine("Absorb");
             }
 
-
         }
-
+    }
         void StartBonusTime()
         {
             StartCoroutine(BonusTime());
@@ -138,4 +138,3 @@ public class Evo : MonoBehaviour
             anim.SetBool("Absorb", false);
         }
     }
-}
