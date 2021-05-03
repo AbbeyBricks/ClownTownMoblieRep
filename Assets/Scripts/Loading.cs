@@ -20,7 +20,7 @@ public class Loading : MonoBehaviour
 
 public void MainMenu()
     {
-    Time.timeScale = .5f;
+    Time.timeScale = 2.0f;
     SceneManager.LoadSceneAsync("MainMenu");
     }
 }
